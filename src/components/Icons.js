@@ -4,7 +4,9 @@ import Icon from "./Icon";
 const Icons = ({ images }) => (
   <div className="icons">
     {Object.values(images).map((obj, i) => (
-      <Icon obj={obj} key={i} />
+      <div key={i}>
+        <Icon obj={obj} key={i} />
+      </div>
     ))}
   </div>
 );

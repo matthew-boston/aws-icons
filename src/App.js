@@ -23,6 +23,7 @@ const App = () => {
     setImages(images);
     setImagesBackup(images);
   }, []);
+
   return (
     <div className="container">
       <Header />
